@@ -1,0 +1,58 @@
+/* Modern font and base styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Flex container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  /* Card styling */
+  .card {
+    flex: 1 1 280px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.1rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #555;
+  }
+  
